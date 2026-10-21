@@ -1,9 +1,6 @@
 name: i18n download strings
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 10 * * 1'
-
 jobs:
   download:
     name: 'Download latest strings'
